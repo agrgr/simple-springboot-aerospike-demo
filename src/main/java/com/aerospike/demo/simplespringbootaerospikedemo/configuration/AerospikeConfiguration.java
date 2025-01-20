@@ -17,15 +17,15 @@ import java.util.Collections;
 public class AerospikeConfiguration extends AbstractAerospikeDataConfiguration {
     @Autowired
     private AerospikeConfigurationProperties aerospikeConfigurationProperties;
-
-    @Override
-    protected Collection<Host> getHosts() {
-        return Collections.singleton(new Host(aerospikeConfigurationProperties.getHost(), aerospikeConfigurationProperties.getPort()));
-    }
-
-    @Override
-    protected String nameSpace() {
-        return aerospikeConfigurationProperties.getNamespace();
-    }
+//
+//    @Override
+//    protected Collection<Host> getHosts() {
+//        return Collections.singleton(new Host(aerospikeConfigurationProperties.getHost(), aerospikeConfigurationProperties.getPort()));
+//    }
+//
+//    @Override
+//    protected String nameSpace() {
+//        return aerospikeConfigurationProperties.getNamespace();
+//    }
 }
 

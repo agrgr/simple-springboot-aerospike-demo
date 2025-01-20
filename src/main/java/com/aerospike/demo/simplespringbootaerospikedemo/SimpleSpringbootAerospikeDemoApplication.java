@@ -29,6 +29,7 @@ public class SimpleSpringbootAerospikeDemoApplication implements ApplicationRunn
 		log.info("AerospikeDataSettings create indexes enabled {}", aerospikeDataSettings.isCreateIndexesOnStartup());
 		log.info("AerospikeDataSettings create indexes enabled {}", aerospikeDataSettings.isCreateIndexesOnStartup());
 		log.info("AerospikeDataSettings  index cache refresh seconds {}", aerospikeDataSettings.getIndexCacheRefreshSeconds());
+		log.info("AerospikeDataSettings  queryMaxRecords {}", aerospikeDataSettings.getQueryMaxRecords());
 		log.info("AerospikeConnectionSettings  namespace {}", aerospikeConnectionSettings.getNamespace());
 	}
 }
