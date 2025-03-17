@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<lombok>1.18.32</lombok>
-		<spring-data-aerospike>4.8.0</spring-data-aerospike>
+		<spring-data-aerospike>5.0.1</spring-data-aerospike>
 		<spring-boot-starter-test>3.3.0</spring-boot-starter-test>
 	</properties>
 	<dependencies>

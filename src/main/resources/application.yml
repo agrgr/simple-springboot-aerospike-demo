@@ -1,12 +1,13 @@
-spring-data-aerospike:
-  connection:
+spring:
+  aerospike:
     hosts: localhost:3000
-    namespace: test
   data:
-    batch-write-size: 100
-    create-indexes-on-startup: true
-    index-cache-refresh-seconds: 3600
-    keep-original-key-types: false
-    query-max-records: 10
-    server-version-refresh-seconds: 3600
-    scans-enabled: false
+    aerospike:
+      namespace: test
+      batch-write-size: 100
+      create-indexes-on-startup: true
+      index-cache-refresh-seconds: 3600
+      keep-original-key-types: false
+      query-max-records: 10
+      server-version-refresh-seconds: 3600
+      scans-enabled: false
