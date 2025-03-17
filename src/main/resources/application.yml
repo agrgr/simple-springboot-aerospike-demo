@@ -1,3 +1,4 @@
+### Application.yml
 spring:
   aerospike:
     hosts: localhost:3000
